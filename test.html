@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html>
+   <head>
+     <title> Pagina profil Felea Iulia-Andrada </title>
+     <style>
+function arVarst()
+{ var azi = new Date();
+  var varstMea;
+  var anNasc = document.getElementById("varsta").innerHTML;
+  varstMea = azi.getFullYear() - parseInt(anNasc);
+  document.getElementById("varsta").innerHTML = varstMea;
+}
+  body {background-color: lightblue;}
+  h1 {color: grey;}
+  h2 {color rgb(51, 102, 153); }
+  p {color: #000066;}
+
+    table {background-color: blue; }
+    ul {background-color: blue; }
+
+       table, tr, td, ul {border: blue left; }
+       tr:hover {background-color: #f5f5f5; }
+
+h1 {font-family: "Fantasy";
+    font-style: Papyrus;
+    font-size: 36x; }
+
+  p{font-family: "Serif";
+     font-size: 18x; }
+
+  img {border: 2x solid black;
+       border-radius: 12px;
+       width: 150px;
+       display: block;
+       padding: 2px;
+       margin: left;
+       opacity: 0,8; }
+</style>
+
+
+
+</head>
+<script>
+    function veziViitor()
+{
+document.getElementById("Felea Iulia-Andrada").innerHTML = "ing. FELEA IULIA-ANDRADA";
+
+var tabelEducatie = document.getElementById("tabelEducatie");
+tabelEducatie.rows[0].cells[0].innerHTML = 
+  "Universitatea Tehnica din CLuj-Napoca - ONG/FIRMA apartinatoare";
+tabelEducatie.rows[0].cells[2].innerHTML = "Web developer";
+tabelEducatie.rows[1].cells[0].innerHTML = "Urmatorul job dorit";
+tabelEducatie.rows[1].cells[1].innerHTML = "Orasul dorit";
+tabelEducatie.rows[1].cells[2].innerHTML = "Exemplu job dorit";
+
+document.getElementById("pozaprofil").src =
+"https://pxhere.com/ro/photo/887452";
+
+        document.body.backgroundColor = "#283d3b";
+        document.getElementById("NumePrenume").style.color = "#c44536";
+        document.getElementById("pozaprofil).style.opacity = "0.9";
+        document.getElementById("pozaprofil").style.color = "6px";
+}
+</script>
+
+ <body>
+
+
+<h1 id="Felea Iulia-Andrada">Felea Iulia-Andrada</h1>
+<p>Felea.Io.Iulia@student.utcluj.ro</p>
+<img id="pozaProfil" src="imagine.jpg">
+
+
+<h2> Educatie </h2>
+  <table id="tabEducatie">
+    <tr><td> Universitatea Tehnica Cluj-Napoca </td></tr>
+    <tr><td> Colegiul National "Emil Racovita" </td></tr>
+
+</table>
+
+
+<h2> Pasiuni </h2>
+   <ul>
+     
+     <li> Drumetii </li>
+     <li> Calatorit </li>
+     <li> Sport</li>
+     <li> Citit </li>
+     <li> Vacante in natura</li>
+    
+   </ul>
+<button onclick="veziViitor()">Alta viata</button>
+<p onmouseover="arVarst()" id="varsta">2003</p>
+
+<a href="agenda.html">Inapoi</a>
+
+</body>
+
+</html>
+
+
+ 
+     

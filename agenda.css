@@ -1,0 +1,65 @@
+body { background-color: LightGrey; } 
+hi.nume {color: blue; }
+h2.sectiuni {color: rgb(123, 23, 34) ; }
+ p {color: #3cb371 ; }
+
+table {background-color: LightGrey;} 
+tr:hover {background-color: #f5f5f5;}
+
+h1.nume {font-family: "verdana"
+         font-size: 36px;}
+img.profil { border: 2ps solid black;
+             border-radius: 12px;
+             width: 150px;
+             display: block;
+             padding: 2px;
+             margin: left;
+             opacity: 0.6;}
+
+#logoAg {border: 2px solid black;
+         border-radius: 12px;
+         display: block;
+         margin: auto;
+         opacity: 0.8; } 
+
+#titluAg {font-family: "Serif";
+          font-style: italic; 
+          font-size: 52px;
+          color: red; }
+a.linkag {font-style: italic;
+          font-size: 24px; }
+.mySlides {
+   display: none;
+}
+
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin-left: auto;
+text-align: center;
+display: inline-block;
+}
+
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {
+opacity: 0.4;
+  } 
+to {opacity: 1;
+  }
+}
+
+@keyframes fade {
+from {
+   opacity: 0.4;
+  }
+to { 
+   opacity:1;
+   }
+}
